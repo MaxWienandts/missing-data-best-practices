@@ -50,7 +50,7 @@ In the sections that follow, we will:
 
 Let’s dive in!
 
-📖 Medium Article:
+📖 Medium Article: https://medium.com/@maxwienandts/handling-missing-values-a-comprehensive-guide-da59a4353955
 
 ---
 Max Wienandts
