@@ -1,0 +1,30 @@
+# Update conda: conda update -n base -c defaults conda
+# Create: conda env create --file article.yml
+# Remove: conda remove --name article --all
+# Activate: conda activate article
+# To get all libraries versions: pip list --format=freeze > requirements.txt
+
+name: article
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.10
+  - pip
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - arviz>=0.17
+  - jax
+  - jaxlib
+  - pip:
+      - pymc>=5.14
+      - arviz>=0.17
+
